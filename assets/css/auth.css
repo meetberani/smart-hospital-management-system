@@ -1,0 +1,47 @@
+body{
+margin:0;
+height:100vh;
+background:linear-gradient(120deg,#005eff,#00c6ff);
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Arial;
+}
+
+.auth-box{
+background:white;
+padding:40px;
+border-radius:20px;
+width:350px;
+text-align:center;
+box-shadow:0 0 30px rgba(0,0,0,.3);
+animation:pop .7s;
+}
+
+@keyframes pop{
+from{transform:scale(.5);opacity:0}
+to{transform:scale(1);opacity:1}
+}
+
+.auth-box h2{
+color:#005eff;
+font-weight:bold;
+}
+
+.tag{
+color:#666;
+margin-bottom:20px;
+}
+
+.big-btn{
+width:100%;
+margin:8px 0;
+padding:12px;
+border-radius:30px;
+font-size:18px;
+}
+
+.big-btn:hover{
+transform:scale(1.05);
+transition:.3s;
+}

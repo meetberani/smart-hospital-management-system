@@ -1,0 +1,120 @@
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f3f8fb;
+}
+
+.layout{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:230px;
+background:linear-gradient(180deg,#198754,#0dcaf0);
+padding:20px;
+color:white;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:25px;
+}
+
+.sidebar a{
+display:block;
+padding:10px;
+margin:8px 0;
+color:white;
+text-decoration:none;
+border-radius:8px;
+transition:.3s;
+}
+
+.sidebar a:hover,.sidebar .active{
+background:rgba(255,255,255,.25);
+}
+
+.main{
+flex:1;
+padding:25px;
+}
+
+.top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.doc-profile{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.doc-profile img{
+width:55px;
+height:55px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid white;
+}
+
+.stat{
+background:white;
+padding:10px 20px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.form-card{
+max-width:500px;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+select,textarea{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:1px solid #ddd;
+margin-top:15px;
+outline:none;
+}
+
+textarea{
+height:120px;
+resize:none;
+}
+
+button{
+margin-top:15px;
+width:100%;
+padding:12px;
+border:none;
+border-radius:25px;
+background:#198754;
+color:white;
+font-weight:600;
+cursor:pointer;
+}
+
+.success{
+background:#d1e7dd;
+padding:10px;
+border-radius:10px;
+color:#0f5132;
+margin-bottom:10px;
+}
+
+.count{
+text-align:right;
+font-size:12px;
+opacity:.7;
+margin-top:5px;
+}

@@ -1,0 +1,47 @@
+body{
+    background:#f4f6f9;
+    font-family: 'Segoe UI';
+}
+
+.card{
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.dashboard-btn{
+    padding:15px;
+    border-radius:10px;
+    width:100%;
+}
+
+.navbar{
+    background:#0d6efd;
+}
+
+.navbar a{
+    color:white!important;
+}
+
+.hero{
+    background:url('../images/bg.jpg');
+    background-size:cover;
+    padding:80px;
+    color:white;
+    text-align:center;
+}
+
+table{
+    background:white;
+}
+
+img.icon{
+    width:40px;
+}
+.dashboard-btn:hover{
+    transform:scale(1.05);
+    transition:.3s;
+}
+
+.hero{
+    background:linear-gradient(45deg,#0d6efd,#198754);
+}

@@ -1,0 +1,53 @@
+.table-card{
+background:white;
+margin-top:20px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+overflow:hidden;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border-bottom:1px solid #eee;
+text-align:left;
+}
+
+thead{
+background:#198754;
+color:white;
+}
+
+.badge{
+padding:5px 12px;
+border-radius:12px;
+font-size:12px;
+color:white;
+}
+
+.badge.pending{background:#ffc107}
+.badge.approved{background:#198754}
+.badge.rejected{background:#dc3545}
+
+.btn{
+padding:6px 12px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-size:13px;
+}
+
+.approve{background:#198754}
+.reject{background:#dc3545}
+
+.back{
+display:inline-block;
+margin-top:15px;
+text-decoration:none;
+color:#198754;
+font-weight:600;
+}

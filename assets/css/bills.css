@@ -1,0 +1,57 @@
+#search{
+width:300px;
+padding:10px;
+border-radius:12px;
+border:1px solid #ccc;
+margin-bottom:20px;
+}
+
+.table-card{
+background:rgba(255,255,255,.8);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+animation:fade .6s;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(15px)}
+to{opacity:1}
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#0d6efd;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f5faff;
+transform:scale(1.01);
+transition:.2s;
+}
+
+.btn-download{
+background:linear-gradient(45deg,#00b09b,#96c93d);
+padding:6px 12px;
+border-radius:10px;
+color:white;
+text-decoration:none;
+font-size:13px;
+}
+
+.btn-download:hover{
+opacity:.8;
+}
