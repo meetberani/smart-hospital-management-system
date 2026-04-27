@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f172a; /* Premium Slate Dark Background */
+    font-family: 'Poppins', sans-serif; /* Modern Font */
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ================== SIDEBAR ================== */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background: #020617; /* Deep Dark for contrast */
+    padding: 25px 20px;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateX(5px); /* Smooth slide effect */
+}
+
+/* ================== MAIN CONTENT ================== */
+.main {
+    margin-left: 250px;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+/* ================== HEADER BANNER ================== */
+.header {
+    background: linear-gradient(135deg, #2563eb, #22c55e); /* Vibrant Blue to Green */
+    padding: 25px 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+}
+
+.header img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ================== DASHBOARD CARDS ================== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05); /* Glass effect */
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08); /* Light border for glass look */
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ================== BIG SECTION / TABLES ================== */
+.big-card {
+    margin-top: 35px;
+    background: #020617;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ================== BUTTONS ================== */
+button {
+    background: #2563eb;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #1d4ed8; /* Darker blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+}

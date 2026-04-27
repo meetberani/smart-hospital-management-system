@@ -1,0 +1,47 @@
+/* ===== Global ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===== Cards ===== */
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+/* ===== Buttons ===== */
+.btn {
+    border-radius: 6px;
+}
+
+/* ===== Forms ===== */
+input, select {
+    border-radius: 5px !important;
+}
+
+/* ===== Dashboard Headings ===== */
+h2, h3 {
+    font-weight: bold;
+}
+
+/* ===== Tables ===== */
+.table th {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* ===== Footer (if needed) ===== */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
